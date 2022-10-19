@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+}
+
+html, body {
+    color: #283236;
+    height: 100%;
+    min-height: 900px;
+    display: block;
+    position: static;
+    font-family: ABeeZee, sans-serif;
+    font-size: 14px;
+}
+
+div {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px 10px;
+    margin-bottom: 12px !important;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+h1, h2, ul {
+    color: #2a76b4;
+}
+
+h3, h4 {
+    color: #578dba;
+}
+
+h1 {
+    font-family: Tangerine, cursive, sans-serif;
+    font-size: 40pt;
+    font-weight: 600;
+}
+
+h2 {
+    padding: 16px 60px;
+}
+
+h3 {
+    padding: -10px;
+    margin-bottom: -20px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    padding: 20px;
+}
+
+button {
+    background-color: #ff5d4a;
+    opacity: 0.8;
+    color: #fff;
+    border: none;
+    padding: 6px 24px;
+    border-radius: 20px;
+    font-family: ABeeZee, sans-serif;
+    font-weight: 900;
+}
+
+button:hover {
+    opacity: 1.0;
+    transition: 0.7s;
+}
+
+footer {
+    font-size: 10px;
+}
+
+.header, .socials {
+    background-color: #DAF1F7;
+}
+
+.header {
+    height: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview {
+    background-color: #fff;
+    height: 24%;
+}
+
+.skills {
+    background-color: #f7f8f5;
+    height: 30%
+}
+
+.email {
+    background-color: #fff;
+    height: 12%;
+    text-align: center;
+}
+
+.socials {
+    height: 18%;
+    position: relative;
+    bottom: -20px;
+}
+
+
+.pfp, .skill-image {
+    border: 3px solid #fa897c;
+    border-radius: 100%;
+    /* border: 4px solid #98adb4; */
+}
+
+.pfp {
+    width: 64px;
+    margin-bottom: -14px;
+}
+
+.skill-image {
+    width: 74px;
+    position: relative;
+    margin: 10px 30px;
+}
+
+#s1 {
+    float: left;
+}
+
+#s2 {
+    float: right;
+}
+
+#sep {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.skill-first, .skill-second {
+    display: block;
+    padding: 10px;
+}
+
+.skill-first>p, .skill-first>h3{
+    text-align: left;
+}
+
+.skill-second>p, .skill-second>h3{
+    text-align: right;
+}

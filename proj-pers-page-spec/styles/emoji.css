@@ -1,0 +1,8 @@
+#tech::before {
+    /* content: "\1F4F3"; */
+    content: "\1F4BB";
+}
+
+#art::before {
+    content: "\1F3A8";
+}
