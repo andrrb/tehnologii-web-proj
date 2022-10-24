@@ -1,0 +1,22 @@
+.pfp, .skill-image {
+    border-radius: 100%;
+}
+
+.pfp {
+    width: 64px;
+    margin-bottom: -14px;
+}
+
+.skill-image {
+    width: 74px;
+    position: relative;
+    margin: 10px 30px;
+}
+
+#sep {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+

@@ -1,0 +1,56 @@
+html, body {
+    color: #283236;
+    font-family: ABeeZee, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Tangerine, cursive, sans-serif;
+    font-size: 40pt;
+    font-weight: 600;
+}
+
+h1, h2, ul {
+    color: #2a76b4;
+}
+
+h3, h4 {
+    color: #578dba;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+footer {
+    font-size: 10px;
+}
+
+button {
+    background-color: #ff5d4a;
+    opacity: 0.8;
+    color: #fff;
+    font-family: ABeeZee, sans-serif;
+    font-weight: 900;
+}
+
+.header, .socials {
+    background-color: #DAF1F7;
+}
+
+.overview {
+    background-color: #fff;
+}
+
+.skills {
+    background-color: #f7f8f5;
+}
+
+.email {
+    background-color: #fff;
+}
+
+.pfp, .skill-image {
+    border: 3px solid #fa897c;
+}
+
